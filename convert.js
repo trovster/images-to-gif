@@ -30,8 +30,8 @@ var argv = minimist(process.argv.slice(2), {
     // Per frame duration.
     duration: 250,
 
-    // Quality, from 1 (worst) to 30 (best).
-    quality: 30,
+    // Quality, from 1 (worst) to 100 (best).
+    quality: 100,
 
     // Output image dimensions.
     width: 1024,
