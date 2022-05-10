@@ -1,0 +1,13 @@
+{
+  "name": "images-to-gif",
+  "version": "0.0.1",
+  "description": "Convert a folder of images to a GIF.",
+  "type": "module",
+  "dependencies": {
+    "make-a-gif": "^4.1.2",
+    "minimist": "^1.2.6"
+  },
+  "scripts": {
+    "start": "node convert.js"
+  }
+}
